@@ -1,0 +1,55 @@
+[2025-02-14T12:20:12.356+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_bigquery.get_csv_data manual__2025-02-14T12:14:09.159397+00:00 [queued]>
+[2025-02-14T12:20:12.376+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_bigquery.get_csv_data manual__2025-02-14T12:14:09.159397+00:00 [queued]>
+[2025-02-14T12:20:12.377+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-14T12:20:12.406+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_csv_data> on 2025-02-14 12:14:09.159397+00:00
+[2025-02-14T12:20:12.414+0000] {standard_task_runner.py:60} INFO - Started process 685 to run task
+[2025-02-14T12:20:12.419+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'load_bigquery', 'get_csv_data', 'manual__2025-02-14T12:14:09.159397+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/load-bigquery.py', '--cfg-path', '/tmp/tmpozky4qzu']
+[2025-02-14T12:20:12.423+0000] {standard_task_runner.py:88} INFO - Job 63: Subtask get_csv_data
+[2025-02-14T12:20:12.452+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-14T12:20:12.518+0000] {task_command.py:423} INFO - Running <TaskInstance: load_bigquery.get_csv_data manual__2025-02-14T12:14:09.159397+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-14T12:20:12.661+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dibimbing' AIRFLOW_CTX_DAG_ID='load_bigquery' AIRFLOW_CTX_TASK_ID='get_csv_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-14T12:14:09.159397+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-14T12:14:09.159397+00:00'
+[2025-02-14T12:20:13.100+0000] {logging_mixin.py:188} INFO -                                                   url  ... source
+0   https://edition.cnn.com/2025/02/13/politics/us...  ...    cnn
+1   https://edition.cnn.com/2025/02/13/politics/da...  ...    cnn
+2   https://edition.cnn.com/2025/02/13/politics/ro...  ...    cnn
+3   https://edition.cnn.com/2025/02/13/politics/mu...  ...    cnn
+4   https://edition.cnn.com/2025/02/13/politics/bu...  ...    cnn
+5   https://edition.cnn.com/2025/02/13/politics/er...  ...    cnn
+6   https://edition.cnn.com/2025/02/13/politics/gu...  ...    cnn
+7   https://edition.cnn.com/2025/02/13/politics/su...  ...    cnn
+8   https://edition.cnn.com/2025/02/13/politics/re...  ...    cnn
+9   https://edition.cnn.com/2025/02/13/politics/am...  ...    cnn
+10  https://edition.cnn.com/2025/02/13/politics/rf...  ...    cnn
+11  https://edition.cnn.com/2025/02/13/politics/us...  ...    cnn
+12  https://edition.cnn.com/2025/02/13/politics/da...  ...    cnn
+13  https://edition.cnn.com/2025/02/13/politics/fe...  ...    cnn
+14  https://edition.cnn.com/2025/02/13/politics/vi...  ...    cnn
+15  https://edition.cnn.com/2025/02/13/politics/do...  ...    cnn
+16  https://edition.cnn.com/2025/02/13/politics/ti...  ...    cnn
+17  https://edition.cnn.com/2025/02/13/politics/us...  ...    cnn
+18  https://edition.cnn.com/2025/02/13/cars/japan-...  ...    cnn
+19  https://edition.cnn.com/2025/02/13/economy/elo...  ...    cnn
+20  https://edition.cnn.com/2025/02/13/economy/us-...  ...    cnn
+21  https://edition.cnn.com/2025/02/13/business/tr...  ...    cnn
+22  https://edition.cnn.com/2025/02/13/tech/china-...  ...    cnn
+23  https://edition.cnn.com/2025/02/13/food/dennys...  ...    cnn
+24  https://edition.cnn.com/2025/02/13/business/ch...  ...    cnn
+25  https://edition.cnn.com/2025/02/13/tech/elon-m...  ...    cnn
+26  https://edition.cnn.com/2025/02/13/economy/tar...  ...    cnn
+27  https://edition.cnn.com/2025/02/13/media/param...  ...    cnn
+28  https://edition.cnn.com/2025/02/13/media/trump...  ...    cnn
+29  https://edition.cnn.com/2025/02/13/economy/us-...  ...    cnn
+30  https://edition.cnn.com/2025/02/13/economy/new...  ...    cnn
+31  https://edition.cnn.com/2025/02/13/tech/tiktok...  ...    cnn
+32  https://edition.cnn.com/2025/02/13/business/vi...  ...    cnn
+33  https://edition.cnn.com/2025/02/13/business/vi...  ...    cnn
+
+[34 rows x 5 columns]
+[2025-02-14T12:20:13.102+0000] {logging_mixin.py:188} INFO - Index(['url', 'date', 'title', 'text', 'source'], dtype='object')
+[2025-02-14T12:20:20.917+0000] {logging_mixin.py:188} WARNING -   0%|          | 0/1 [00:00<?, ?it/s]
+[2025-02-14T12:20:20.918+0000] {gbq.py:515} INFO - 34 out of 34 rows loaded.
+[2025-02-14T12:20:20.919+0000] {logging_mixin.py:188} WARNING - 100%|##########| 1/1 [00:00<00:00, 1044.14it/s]
+[2025-02-14T12:20:20.920+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-14T12:20:20.941+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=load_bigquery, task_id=get_csv_data, execution_date=20250214T121409, start_date=20250214T122012, end_date=20250214T122020
+[2025-02-14T12:20:21.025+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-14T12:20:21.057+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

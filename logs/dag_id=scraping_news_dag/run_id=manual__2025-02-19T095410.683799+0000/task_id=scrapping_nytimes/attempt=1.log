@@ -1,0 +1,51 @@
+[2025-02-19T09:54:12.843+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T09:54:10.683799+00:00 [queued]>
+[2025-02-19T09:54:12.864+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T09:54:10.683799+00:00 [queued]>
+[2025-02-19T09:54:12.865+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-19T09:54:12.896+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_nytimes> on 2025-02-19 09:54:10.683799+00:00
+[2025-02-19T09:54:12.905+0000] {standard_task_runner.py:60} INFO - Started process 4054 to run task
+[2025-02-19T09:54:12.912+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_nytimes', 'manual__2025-02-19T09:54:10.683799+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmp4gl9iaoc']
+[2025-02-19T09:54:12.915+0000] {standard_task_runner.py:88} INFO - Job 124: Subtask scrapping_nytimes
+[2025-02-19T09:54:12.944+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-19T09:54:13.015+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T09:54:10.683799+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-19T09:54:13.178+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_nytimes' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T09:54:10.683799+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-19T09:54:10.683799+00:00'
+[2025-02-19T09:54:14.333+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-19T09:54:14.731+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T09:54:14.887+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T09:54:15.044+0000] {logger.py:11} INFO - Driver [/home/airflow/.wdm/drivers/chromedriver/linux64/133.0.6943.126/chromedriver-linux64/chromedriver] found in cache
+[2025-02-19T09:54:55.414+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:56:07.821+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:57:23.858+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:58:32.223+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:59:05.961+0000] {logging_mixin.py:188} INFO -                                                   url  ...          source
+0   https://www.nytimes.com/2025/02/16/us/politics...  ...  New York Times
+1   https://www.nytimes.com/2025/02/17/us/politics...  ...  New York Times
+2   https://www.nytimes.com/2025/02/18/us/politics...  ...  New York Times
+3   https://www.nytimes.com/2025/02/17/us/politics...  ...  New York Times
+4   https://www.nytimes.com/2025/02/18/us/politics...  ...  New York Times
+..                                                ...  ...             ...
+66  https://www.nytimes.com/2025/02/18/opinion/sou...  ...  New York Times
+67  https://www.nytimes.com/2025/02/19/opinion/tru...  ...  New York Times
+68  https://www.nytimes.com/2025/02/19/opinion/con...  ...  New York Times
+69  https://www.nytimes.com/2025/02/18/opinion/van...  ...  New York Times
+70  https://www.nytimes.com/2025/02/18/opinion/gaz...  ...  New York Times
+
+[71 rows x 5 columns]
+[2025-02-19T09:59:06.303+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/scraping-news-dag.py", line 27, in scrapping_nytimes
+    df.to_csv('/opt/airflow/data/nyt.csv')
+AttributeError: 'NoneType' object has no attribute 'to_csv'
+[2025-02-19T09:59:06.327+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=scraping_news_dag, task_id=scrapping_nytimes, execution_date=20250219T095410, start_date=20250219T095412, end_date=20250219T095906
+[2025-02-19T09:59:06.353+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 124 for task scrapping_nytimes ('NoneType' object has no attribute 'to_csv'; 4054)
+[2025-02-19T09:59:06.425+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-02-19T09:59:06.471+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

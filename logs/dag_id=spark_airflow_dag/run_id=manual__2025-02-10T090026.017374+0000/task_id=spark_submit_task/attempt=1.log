@@ -1,0 +1,68 @@
+[2025-02-10T09:00:26.760+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_airflow_dag.spark_submit_task manual__2025-02-10T09:00:26.017374+00:00 [queued]>
+[2025-02-10T09:00:26.781+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_airflow_dag.spark_submit_task manual__2025-02-10T09:00:26.017374+00:00 [queued]>
+[2025-02-10T09:00:26.782+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-10T09:00:26.823+0000] {taskinstance.py:2214} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2025-02-10 09:00:26.017374+00:00
+[2025-02-10T09:00:26.831+0000] {standard_task_runner.py:60} INFO - Started process 604 to run task
+[2025-02-10T09:00:26.836+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'spark_airflow_dag', 'spark_submit_task', 'manual__2025-02-10T09:00:26.017374+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/spark-dag-example.py', '--cfg-path', '/tmp/tmpcmfj6y8m']
+[2025-02-10T09:00:26.839+0000] {standard_task_runner.py:88} INFO - Job 23: Subtask spark_submit_task
+[2025-02-10T09:00:26.871+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-10T09:00:26.950+0000] {task_command.py:423} INFO - Running <TaskInstance: spark_airflow_dag.spark_submit_task manual__2025-02-10T09:00:26.017374+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-10T09:00:27.157+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dibimbing' AIRFLOW_CTX_DAG_ID='spark_airflow_dag' AIRFLOW_CTX_TASK_ID='spark_submit_task' AIRFLOW_CTX_EXECUTION_DATE='2025-02-10T09:00:26.017374+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-10T09:00:26.017374+00:00'
+[2025-02-10T09:00:27.184+0000] {base.py:83} INFO - Using connection ID 'spark_main' for task execution.
+[2025-02-10T09:00:27.189+0000] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master spark://deproject-spark-master:7077 --name arrow-spark /spark-scripts/spark-example.py
+[2025-02-10T09:00:31.836+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:31 INFO SparkContext: Running Spark version 3.3.2
+[2025-02-10T09:00:31.943+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-02-10T09:00:32.096+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO ResourceUtils: ==============================================================
+[2025-02-10T09:00:32.097+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-02-10T09:00:32.098+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO ResourceUtils: ==============================================================
+[2025-02-10T09:00:32.099+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SparkContext: Submitted application: Dibimbing
+[2025-02-10T09:00:32.135+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-02-10T09:00:32.152+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO ResourceProfile: Limiting resource is cpu
+[2025-02-10T09:00:32.154+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-02-10T09:00:32.232+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SecurityManager: Changing view acls to: airflow
+[2025-02-10T09:00:32.234+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SecurityManager: Changing modify acls to: airflow
+[2025-02-10T09:00:32.235+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SecurityManager: Changing view acls groups to:
+[2025-02-10T09:00:32.236+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SecurityManager: Changing modify acls groups to:
+[2025-02-10T09:00:32.237+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(airflow); groups with view permissions: Set(); users  with modify permissions: Set(airflow); groups with modify permissions: Set()
+[2025-02-10T09:00:32.664+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO Utils: Successfully started service 'sparkDriver' on port 32891.
+[2025-02-10T09:00:32.722+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SparkEnv: Registering MapOutputTracker
+[2025-02-10T09:00:32.787+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SparkEnv: Registering BlockManagerMaster
+[2025-02-10T09:00:32.818+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-02-10T09:00:32.820+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-02-10T09:00:32.828+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-02-10T09:00:32.862+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-fe35bb6c-337a-4d10-a5f2-7a90cdea9309
+[2025-02-10T09:00:32.893+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-02-10T09:00:32.920+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:32 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-02-10T09:00:33.252+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-02-10T09:00:33.464+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://deproject-spark-master:7077...
+[2025-02-10T09:00:33.540+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO TransportClientFactory: Successfully created connection to deproject-spark-master/172.28.0.3:7077 after 46 ms (0 ms spent in bootstraps)
+[2025-02-10T09:00:33.719+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250210090033-0001
+[2025-02-10T09:00:33.724+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250210090033-0001/0 on worker-20250210085442-172.28.0.4-40261 (172.28.0.4:40261) with 1 core(s)
+[2025-02-10T09:00:33.728+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO StandaloneSchedulerBackend: Granted executor ID app-20250210090033-0001/0 on hostPort 172.28.0.4:40261 with 1 core(s), 1024.0 MiB RAM
+[2025-02-10T09:00:33.731+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44041.
+[2025-02-10T09:00:33.732+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO NettyBlockTransferService: Server created on deproject-airflow-scheduler:44041
+[2025-02-10T09:00:33.735+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-02-10T09:00:33.747+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, deproject-airflow-scheduler, 44041, None)
+[2025-02-10T09:00:33.753+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO BlockManagerMasterEndpoint: Registering block manager deproject-airflow-scheduler:44041 with 434.4 MiB RAM, BlockManagerId(driver, deproject-airflow-scheduler, 44041, None)
+[2025-02-10T09:00:33.757+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, deproject-airflow-scheduler, 44041, None)
+[2025-02-10T09:00:33.759+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, deproject-airflow-scheduler, 44041, None)
+[2025-02-10T09:00:33.871+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:33 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250210090033-0001/0 is now RUNNING
+[2025-02-10T09:00:34.378+0000] {spark_submit.py:495} INFO - 25/02/10 09:00:34 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2025-02-10T09:01:09.649+0000] {spark_submit.py:495} INFO - +----------+-----------+--------+--------+-----+-----------+--------------------+---------+-----+
+[2025-02-10T09:01:09.660+0000] {spark_submit.py:495} INFO - |product_id|customer_id|order_id|quantity|price|       name|               email|     name|price|
+[2025-02-10T09:01:09.661+0000] {spark_submit.py:495} INFO - +----------+-----------+--------+--------+-----+-----------+--------------------+---------+-----+
+[2025-02-10T09:01:09.662+0000] {spark_submit.py:495} INFO - |         1|          1|     101|       2|19.99|   John Doe| johndoe@example.com|Product A|19.99|
+[2025-02-10T09:01:09.663+0000] {spark_submit.py:495} INFO - |         2|          2|     102|       1| 9.99| Jane Smith|janesmith@example...|Product B| 9.99|
+[2025-02-10T09:01:09.664+0000] {spark_submit.py:495} INFO - |         3|          3|     103|       1|15.99|Bob Johnson|bobjohnson@exampl...|Product C|15.99|
+[2025-02-10T09:01:09.665+0000] {spark_submit.py:495} INFO - |         4|          1|     104|       1| 5.99|   John Doe| johndoe@example.com|Product D| 5.99|
+[2025-02-10T09:01:09.668+0000] {spark_submit.py:495} INFO - |         5|          2|     105|       3|12.99| Jane Smith|janesmith@example...|Product E|12.99|
+[2025-02-10T09:01:09.669+0000] {spark_submit.py:495} INFO - |         6|          3|     106|       2| 9.99|Bob Johnson|bobjohnson@exampl...|Product F| 9.99|
+[2025-02-10T09:01:09.671+0000] {spark_submit.py:495} INFO - |         7|          4|     107|       1|11.99|    Sue Lee|  suelee@example.com|Product G|11.99|
+[2025-02-10T09:01:09.672+0000] {spark_submit.py:495} INFO - |         8|          1|     108|       2|14.99|   John Doe| johndoe@example.com|Product H|14.99|
+[2025-02-10T09:01:09.673+0000] {spark_submit.py:495} INFO - |         9|          2|     109|       1| 9.99| Jane Smith|janesmith@example...|Product I| 9.99|
+[2025-02-10T09:01:09.674+0000] {spark_submit.py:495} INFO - |        10|          3|     110|       1|19.99|Bob Johnson|bobjohnson@exampl...|Product J|19.99|
+[2025-02-10T09:01:09.675+0000] {spark_submit.py:495} INFO - +----------+-----------+--------+--------+-----+-----------+--------------------+---------+-----+
+[2025-02-10T09:01:09.678+0000] {spark_submit.py:495} INFO - 
+[2025-02-10T09:01:30.784+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spark_airflow_dag, task_id=spark_submit_task, execution_date=20250210T090026, start_date=20250210T090026, end_date=20250210T090130
+[2025-02-10T09:01:30.868+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-10T09:01:30.934+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,61 @@
+[2025-02-20T12:26:19.254+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_sp500.load_to_bigquery manual__2025-02-20T12:26:16.876879+00:00 [queued]>
+[2025-02-20T12:26:19.280+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_sp500.load_to_bigquery manual__2025-02-20T12:26:16.876879+00:00 [queued]>
+[2025-02-20T12:26:19.282+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-20T12:26:19.326+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): load_to_bigquery> on 2025-02-20 12:26:16.876879+00:00
+[2025-02-20T12:26:19.336+0000] {standard_task_runner.py:60} INFO - Started process 292 to run task
+[2025-02-20T12:26:19.344+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'extract_sp500', 'load_to_bigquery', 'manual__2025-02-20T12:26:16.876879+00:00', '--job-id', '198', '--raw', '--subdir', 'DAGS_FOLDER/extract-sp500.py', '--cfg-path', '/tmp/tmpe44gledh']
+[2025-02-20T12:26:19.349+0000] {standard_task_runner.py:88} INFO - Job 198: Subtask load_to_bigquery
+[2025-02-20T12:26:19.393+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-20T12:26:19.505+0000] {task_command.py:423} INFO - Running <TaskInstance: extract_sp500.load_to_bigquery manual__2025-02-20T12:26:16.876879+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-20T12:26:19.756+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_sp500' AIRFLOW_CTX_TASK_ID='load_to_bigquery' AIRFLOW_CTX_EXECUTION_DATE='2025-02-20T12:26:16.876879+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-20T12:26:16.876879+00:00'
+[2025-02-20T12:26:20.293+0000] {logging_mixin.py:188} INFO -           Date  Close/Last     Open     High      Low
+0   02/19/2025     6144.15  6117.76  6147.43  6111.15
+1   02/18/2025     6129.58  6121.60  6129.63  6099.51
+2   02/14/2025     6114.63  6115.52  6127.47  6107.62
+3   02/13/2025     6115.07  6060.59  6116.91  6050.95
+4   02/12/2025     6051.97  6025.08  6063.00  6003.00
+5   02/11/2025     6068.50  6049.32  6076.28  6042.34
+6   02/10/2025     6066.44  6046.40  6073.38  6044.84
+7   02/07/2025     6025.99  6083.13  6101.28  6019.96
+8   02/06/2025     6083.57  6072.22  6084.03  6046.83
+9   02/05/2025     6061.48  6020.45  6062.86  6007.06
+10  02/04/2025     6037.88  5998.14  6042.48  5990.87
+11  02/03/2025     5994.57  5969.65  6022.13  5923.93
+12  01/31/2025     6040.53  6096.79  6120.91  6030.93
+13  01/30/2025     6071.17  6050.75  6086.64  6027.46
+14  01/29/2025     6039.31  6057.70  6062.83  6012.96
+15  01/28/2025     6067.70  6026.97  6074.54  5994.63
+16  01/27/2025     6012.28  5969.04  6017.17  5962.92
+17  01/24/2025     6101.24  6121.43  6128.18  6088.74
+18  01/23/2025     6118.71  6076.32  6118.73  6074.67
+19  01/22/2025     6086.37  6081.39  6100.81  6076.13
+20  01/21/2025     6049.24  6014.12  6051.51  6006.88
+[2025-02-20T12:26:20.330+0000] {logging_mixin.py:188} INFO -          Date    Close     Open     High      Low
+0  2025-02-19  6144.15  6117.76  6147.43  6111.15
+1  2025-02-18  6129.58  6121.60  6129.63  6099.51
+2  2025-02-14  6114.63  6115.52  6127.47  6107.62
+3  2025-02-13  6115.07  6060.59  6116.91  6050.95
+4  2025-02-12  6051.97  6025.08  6063.00  6003.00
+5  2025-02-11  6068.50  6049.32  6076.28  6042.34
+6  2025-02-10  6066.44  6046.40  6073.38  6044.84
+7  2025-02-07  6025.99  6083.13  6101.28  6019.96
+8  2025-02-06  6083.57  6072.22  6084.03  6046.83
+9  2025-02-05  6061.48  6020.45  6062.86  6007.06
+10 2025-02-04  6037.88  5998.14  6042.48  5990.87
+11 2025-02-03  5994.57  5969.65  6022.13  5923.93
+12 2025-01-31  6040.53  6096.79  6120.91  6030.93
+13 2025-01-30  6071.17  6050.75  6086.64  6027.46
+14 2025-01-29  6039.31  6057.70  6062.83  6012.96
+15 2025-01-28  6067.70  6026.97  6074.54  5994.63
+16 2025-01-27  6012.28  5969.04  6017.17  5962.92
+17 2025-01-24  6101.24  6121.43  6128.18  6088.74
+18 2025-01-23  6118.71  6076.32  6118.73  6074.67
+19 2025-01-22  6086.37  6081.39  6100.81  6076.13
+20 2025-01-21  6049.24  6014.12  6051.51  6006.88
+[2025-02-20T12:26:27.147+0000] {logging_mixin.py:188} WARNING -   0%|          | 0/1 [00:00<?, ?it/s]
+[2025-02-20T12:26:27.149+0000] {gbq.py:515} INFO - 21 out of 21 rows loaded.
+[2025-02-20T12:26:27.150+0000] {logging_mixin.py:188} WARNING - 100%|##########| 1/1 [00:00<00:00, 867.13it/s]
+[2025-02-20T12:26:27.151+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-20T12:26:27.172+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=extract_sp500, task_id=load_to_bigquery, execution_date=20250220T122616, start_date=20250220T122619, end_date=20250220T122627
+[2025-02-20T12:26:27.271+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-20T12:26:27.336+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

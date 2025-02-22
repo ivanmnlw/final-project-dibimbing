@@ -1,0 +1,15 @@
+[2025-02-10T08:09:31.477+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_bigquery-test.fetch_spark_result manual__2025-02-10T08:09:30.339586+00:00 [queued]>
+[2025-02-10T08:09:31.500+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_bigquery-test.fetch_spark_result manual__2025-02-10T08:09:30.339586+00:00 [queued]>
+[2025-02-10T08:09:31.502+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-10T08:09:31.550+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_spark_result> on 2025-02-10 08:09:30.339586+00:00
+[2025-02-10T08:09:31.560+0000] {standard_task_runner.py:60} INFO - Started process 2984 to run task
+[2025-02-10T08:09:31.565+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'load_bigquery-test', 'fetch_spark_result', 'manual__2025-02-10T08:09:30.339586+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/load-bigquery-test.py', '--cfg-path', '/tmp/tmp2go4zonk']
+[2025-02-10T08:09:31.568+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask fetch_spark_result
+[2025-02-10T08:09:31.597+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-10T08:09:31.680+0000] {task_command.py:423} INFO - Running <TaskInstance: load_bigquery-test.fetch_spark_result manual__2025-02-10T08:09:30.339586+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-10T08:09:31.882+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dibimbing' AIRFLOW_CTX_DAG_ID='load_bigquery-test' AIRFLOW_CTX_TASK_ID='fetch_spark_result' AIRFLOW_CTX_EXECUTION_DATE='2025-02-10T08:09:30.339586+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-10T08:09:30.339586+00:00'
+[2025-02-10T08:09:31.909+0000] {logging_mixin.py:188} INFO - This is the pull: None
+[2025-02-10T08:09:31.910+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-10T08:09:31.932+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=load_bigquery-test, task_id=fetch_spark_result, execution_date=20250210T080930, start_date=20250210T080931, end_date=20250210T080931
+[2025-02-10T08:09:31.984+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-10T08:09:32.036+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

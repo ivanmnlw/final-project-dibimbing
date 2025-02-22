@@ -1,0 +1,53 @@
+[2025-02-19T12:58:25.490+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T12:58:23.721217+00:00 [queued]>
+[2025-02-19T12:58:25.508+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T12:58:23.721217+00:00 [queued]>
+[2025-02-19T12:58:25.510+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-19T12:58:25.544+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_cnn> on 2025-02-19 12:58:23.721217+00:00
+[2025-02-19T12:58:25.551+0000] {standard_task_runner.py:60} INFO - Started process 230 to run task
+[2025-02-19T12:58:25.556+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_cnn', 'manual__2025-02-19T12:58:23.721217+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmpoteapmio']
+[2025-02-19T12:58:25.561+0000] {standard_task_runner.py:88} INFO - Job 151: Subtask scrapping_cnn
+[2025-02-19T12:58:25.601+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-19T12:58:25.687+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T12:58:23.721217+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-19T12:58:25.868+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_cnn' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T12:58:23.721217+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-19T12:58:23.721217+00:00'
+[2025-02-19T13:00:26.557+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/dateutil/parser/_parser.py:1207 UnknownTimezoneWarning: tzname WIB identified but not understood.  Pass `tzinfos` argument in order to correctly return a timezone-aware datetime.  In a future version, this will raise an exception.
+[2025-02-19T13:03:40.862+0000] {logging_mixin.py:188} INFO -                                                   url  ... source
+0   https://edition.cnn.com/2025/02/15/politics/qu...  ...    cnn
+1   https://edition.cnn.com/2025/02/18/politics/un...  ...    cnn
+2   https://edition.cnn.com/2025/02/18/politics/er...  ...    cnn
+3   https://edition.cnn.com/2025/02/18/politics/tr...  ...    cnn
+4   https://edition.cnn.com/2025/02/18/politics/op...  ...    cnn
+..                                                ...  ...    ...
+86  https://edition.cnn.com/2025/02/17/business/ar...  ...    cnn
+87  https://edition.cnn.com/2025/02/17/business/pr...  ...    cnn
+88  https://edition.cnn.com/2025/02/19/business/la...  ...    cnn
+89  https://edition.cnn.com/2025/02/19/food/kfc-ke...  ...    cnn
+90  https://edition.cnn.com/2025/02/19/cars/trumps...  ...    cnn
+
+[91 rows x 5 columns]
+[2025-02-19T13:03:40.867+0000] {logging_mixin.py:188} INFO - 0    2025-02-15 22:00:00
+1    2025-02-18 23:01:00
+2    2025-02-18 13:44:00
+3    2025-02-18 17:00:00
+4    2025-02-19 00:14:00
+             ...        
+86   2025-02-17 20:13:00
+87   2025-02-17 22:44:00
+88   2025-02-19 18:30:00
+89   2025-02-19 19:34:00
+90   2025-02-19 19:00:00
+Name: date, Length: 91, dtype: datetime64[ns]
+[2025-02-19T13:03:40.871+0000] {logging_mixin.py:188} INFO - 0     A version of this story appeared in CNN’s What...
+1     The Trump administration ordered legal service...
+2     The federal judge overseeing the corruption ca...
+3     President Donald Trump and top allies who have...
+4     The Trump administration has quietly fired mul...
+                            ...                        
+86    MONTEVIDEO, Uruguay AP —Argentine lawyers file...
+87    New York Many Americans enjoy a day off on the...
+88    Federal layoffs may soon come for America’s la...
+89    New York KFC, the fast food chain formerly kno...
+90    New York President Donald Trump threatened to ...
+Name: text, Length: 91, dtype: object
+[2025-02-19T13:03:40.934+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-19T13:03:40.954+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scraping_news_dag, task_id=scrapping_cnn, execution_date=20250219T125823, start_date=20250219T125825, end_date=20250219T130340
+[2025-02-19T13:03:41.057+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-19T13:03:41.105+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

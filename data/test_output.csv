@@ -1,0 +1,11 @@
+,product_id,customer_id,order_id,quantity,price,name,email,name,price
+0,1,1,101,2,19.99,John Doe,johndoe@example.com,Product A,19.99
+1,2,2,102,1,9.99,Jane Smith,janesmith@example.com,Product B,9.99
+2,3,3,103,1,15.99,Bob Johnson,bobjohnson@example.com,Product C,15.99
+3,4,1,104,1,5.99,John Doe,johndoe@example.com,Product D,5.99
+4,5,2,105,3,12.99,Jane Smith,janesmith@example.com,Product E,12.99
+5,6,3,106,2,9.99,Bob Johnson,bobjohnson@example.com,Product F,9.99
+6,7,4,107,1,11.99,Sue Lee,suelee@example.com,Product G,11.99
+7,8,1,108,2,14.99,John Doe,johndoe@example.com,Product H,14.99
+8,9,2,109,1,9.99,Jane Smith,janesmith@example.com,Product I,9.99
+9,10,3,110,1,19.99,Bob Johnson,bobjohnson@example.com,Product J,19.99

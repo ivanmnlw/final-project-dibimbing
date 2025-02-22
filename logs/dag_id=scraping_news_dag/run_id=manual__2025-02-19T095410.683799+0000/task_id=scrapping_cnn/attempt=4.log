@@ -1,0 +1,19 @@
+[2025-02-19T09:56:55.269+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T09:54:10.683799+00:00 [queued]>
+[2025-02-19T09:56:55.294+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T09:54:10.683799+00:00 [queued]>
+[2025-02-19T09:56:55.296+0000] {taskinstance.py:2193} INFO - Starting attempt 4 of 1
+[2025-02-19T09:56:55.334+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_cnn> on 2025-02-19 09:54:10.683799+00:00
+[2025-02-19T09:56:55.342+0000] {standard_task_runner.py:60} INFO - Started process 6299 to run task
+[2025-02-19T09:56:55.348+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_cnn', 'manual__2025-02-19T09:54:10.683799+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmpjda_ggmy']
+[2025-02-19T09:56:55.351+0000] {standard_task_runner.py:88} INFO - Job 128: Subtask scrapping_cnn
+[2025-02-19T09:56:55.379+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-19T09:56:55.450+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T09:54:10.683799+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-19T09:56:55.651+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_cnn' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T09:54:10.683799+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-19T09:54:10.683799+00:00'
+[2025-02-19T09:57:30.796+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to removed. Terminating instance.
+[2025-02-19T09:57:30.802+0000] {process_utils.py:131} INFO - Sending 15 to group 6299. PIDs of all processes in the group: [6299]
+[2025-02-19T09:57:30.803+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 6299
+[2025-02-19T09:57:30.804+0000] {taskinstance.py:2480} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-02-19T09:58:26.040+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/dateutil/parser/_parser.py:1207 UnknownTimezoneWarning: tzname WIB identified but not understood.  Pass `tzinfos` argument in order to correctly return a timezone-aware datetime.  In a future version, this will raise an exception.
+[2025-02-19T09:58:30.822+0000] {process_utils.py:149} WARNING - process psutil.Process(pid=6299, name='airflow task ru', status='running', started='09:56:54') did not respond to SIGTERM. Trying SIGKILL
+[2025-02-19T09:58:30.826+0000] {process_utils.py:86} INFO - Sending the signal 9 to group 6299
+[2025-02-19T09:58:30.879+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=6299, name='airflow task ru', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='09:56:54') (6299) terminated with exit code -9
+[2025-02-19T09:58:30.881+0000] {standard_task_runner.py:175} ERROR - Job 128 was killed before it finished (likely due to running out of memory)

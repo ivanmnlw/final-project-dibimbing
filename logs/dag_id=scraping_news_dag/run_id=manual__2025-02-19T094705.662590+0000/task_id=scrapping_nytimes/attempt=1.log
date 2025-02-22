@@ -1,0 +1,61 @@
+[2025-02-19T09:47:08.534+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T09:47:05.662590+00:00 [queued]>
+[2025-02-19T09:47:08.555+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T09:47:05.662590+00:00 [queued]>
+[2025-02-19T09:47:08.556+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-19T09:47:08.583+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_nytimes> on 2025-02-19 09:47:05.662590+00:00
+[2025-02-19T09:47:08.591+0000] {standard_task_runner.py:60} INFO - Started process 644 to run task
+[2025-02-19T09:47:08.595+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_nytimes', 'manual__2025-02-19T09:47:05.662590+00:00', '--job-id', '119', '--raw', '--subdir', 'DAGS_FOLDER/load-bigquery-test.py', '--cfg-path', '/tmp/tmpuloh0vap']
+[2025-02-19T09:47:08.598+0000] {standard_task_runner.py:88} INFO - Job 119: Subtask scrapping_nytimes
+[2025-02-19T09:47:08.624+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-19T09:47:08.690+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T09:47:05.662590+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-19T09:47:08.872+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_nytimes' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T09:47:05.662590+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-19T09:47:05.662590+00:00'
+[2025-02-19T09:47:10.183+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-19T09:47:10.549+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T09:47:10.725+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T09:47:10.867+0000] {logger.py:11} INFO - There is no [linux64] chromedriver "133.0.6943.126" for browser google-chrome "133.0.6943" in cache
+[2025-02-19T09:47:10.868+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T09:47:11.221+0000] {logger.py:11} INFO - WebDriver version 133.0.6943.126 selected
+[2025-02-19T09:47:11.232+0000] {logger.py:11} INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/linux64/chromedriver-linux64.zip
+[2025-02-19T09:47:11.233+0000] {logger.py:11} INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/linux64/chromedriver-linux64.zip
+[2025-02-19T09:47:11.419+0000] {logger.py:11} INFO - Driver downloading response is 200
+[2025-02-19T09:47:12.887+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T09:47:13.351+0000] {logger.py:11} INFO - Driver has been saved in cache [/home/airflow/.wdm/drivers/chromedriver/linux64/133.0.6943.126]
+[2025-02-19T09:47:51.382+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:49:14.493+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:50:33.069+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:51:44.386+0000] {logging_mixin.py:188} INFO - Total scraped: 70
+[2025-02-19T09:52:29.130+0000] {logging_mixin.py:188} INFO -                                                   url  ...          source
+0   https://www.nytimes.com/2025/02/16/us/politics...  ...  New York Times
+1   https://www.nytimes.com/2025/02/17/us/politics...  ...  New York Times
+2   https://www.nytimes.com/2025/02/18/us/politics...  ...  New York Times
+3   https://www.nytimes.com/2025/02/17/us/politics...  ...  New York Times
+4   https://www.nytimes.com/2025/02/18/us/politics...  ...  New York Times
+..                                                ...  ...             ...
+66  https://www.nytimes.com/2025/02/18/opinion/sou...  ...  New York Times
+67  https://www.nytimes.com/2025/02/19/opinion/tru...  ...  New York Times
+68  https://www.nytimes.com/2025/02/19/opinion/con...  ...  New York Times
+69  https://www.nytimes.com/2025/02/18/opinion/van...  ...  New York Times
+70  https://www.nytimes.com/2025/02/18/opinion/gaz...  ...  New York Times
+
+[71 rows x 5 columns]
+[2025-02-19T09:52:29.132+0000] {logging_mixin.py:188} INFO - Press Enter to exit...
+[2025-02-19T09:52:29.133+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load-bigquery-test.py", line 14, in scrapping_nytimes
+    df = nyt.main()
+  File "/opt/airflow/dags/source/nyt.py", line 96, in main
+    input("Press Enter to exit...")  # Keeps the browser open for review
+EOFError: EOF when reading a line
+[2025-02-19T09:52:29.170+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=scraping_news_dag, task_id=scrapping_nytimes, execution_date=20250219T094705, start_date=20250219T094708, end_date=20250219T095229
+[2025-02-19T09:52:29.201+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 119 for task scrapping_nytimes (EOF when reading a line; 644)
+[2025-02-19T09:52:29.280+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-02-19T09:52:29.321+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

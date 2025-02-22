@@ -1,0 +1,29 @@
+[2025-02-20T08:24:58.295+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping__1 manual__2025-02-20T08:24:56.894576+00:00 [queued]>
+[2025-02-20T08:24:58.302+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping__1 manual__2025-02-20T08:24:56.894576+00:00 [queued]>
+[2025-02-20T08:24:58.303+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-20T08:24:58.315+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping__1> on 2025-02-20 08:24:56.894576+00:00
+[2025-02-20T08:24:58.319+0000] {standard_task_runner.py:60} INFO - Started process 251 to run task
+[2025-02-20T08:24:58.325+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping__1', 'manual__2025-02-20T08:24:56.894576+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmp5tp0ifm2']
+[2025-02-20T08:24:58.329+0000] {standard_task_runner.py:88} INFO - Job 165: Subtask scrapping__1
+[2025-02-20T08:24:58.357+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-20T08:24:58.397+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping__1 manual__2025-02-20T08:24:56.894576+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-20T08:24:58.487+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping__1' AIRFLOW_CTX_EXECUTION_DATE='2025-02-20T08:24:56.894576+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-20T08:24:56.894576+00:00'
+[2025-02-20T08:24:58.494+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/scraping-news-dag.py", line 24, in scrapping
+    from source import table_name
+ImportError: cannot import name 'table_name' from 'source' (unknown location)
+[2025-02-20T08:24:58.503+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=scraping_news_dag, task_id=scrapping__1, execution_date=20250220T082456, start_date=20250220T082458, end_date=20250220T082458
+[2025-02-20T08:24:58.515+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 165 for task scrapping__1 (cannot import name 'table_name' from 'source' (unknown location); 251)
+[2025-02-20T08:24:58.539+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-02-20T08:24:58.570+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

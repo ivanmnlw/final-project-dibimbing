@@ -1,0 +1,53 @@
+[2025-02-20T08:55:25.705+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scraping_cnn manual__2025-02-20T08:55:23.701278+00:00 [queued]>
+[2025-02-20T08:55:25.726+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scraping_cnn manual__2025-02-20T08:55:23.701278+00:00 [queued]>
+[2025-02-20T08:55:25.728+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-20T08:55:25.761+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scraping_cnn> on 2025-02-20 08:55:23.701278+00:00
+[2025-02-20T08:55:25.769+0000] {standard_task_runner.py:60} INFO - Started process 10855 to run task
+[2025-02-20T08:55:25.775+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scraping_cnn', 'manual__2025-02-20T08:55:23.701278+00:00', '--job-id', '178', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmpr00m713w']
+[2025-02-20T08:55:25.781+0000] {standard_task_runner.py:88} INFO - Job 178: Subtask scraping_cnn
+[2025-02-20T08:55:25.823+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-20T08:55:25.887+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scraping_cnn manual__2025-02-20T08:55:23.701278+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-20T08:55:26.061+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scraping_cnn' AIRFLOW_CTX_EXECUTION_DATE='2025-02-20T08:55:23.701278+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-20T08:55:23.701278+00:00'
+[2025-02-20T08:57:05.291+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/dateutil/parser/_parser.py:1207 UnknownTimezoneWarning: tzname WIB identified but not understood.  Pass `tzinfos` argument in order to correctly return a timezone-aware datetime.  In a future version, this will raise an exception.
+[2025-02-20T08:59:22.568+0000] {logging_mixin.py:188} INFO -                                                   url  ... source
+0   https://edition.cnn.com/2025/02/15/politics/qu...  ...    cnn
+1   https://edition.cnn.com/2025/02/18/politics/er...  ...    cnn
+2   https://edition.cnn.com/2025/02/19/politics/tr...  ...    cnn
+3   https://edition.cnn.com/2025/02/19/politics/fa...  ...    cnn
+4   https://edition.cnn.com/2025/02/18/politics/jf...  ...    cnn
+..                                                ...  ...    ...
+84  https://edition.cnn.com/2025/02/14/media/china...  ...    cnn
+85  https://edition.cnn.com/2025/02/14/media/white...  ...    cnn
+86  https://edition.cnn.com/2025/02/19/business/tr...  ...    cnn
+87  https://edition.cnn.com/2025/02/20/economy/chi...  ...    cnn
+88  https://edition.cnn.com/2025/02/19/tech/trump-...  ...    cnn
+
+[89 rows x 5 columns]
+[2025-02-20T08:59:22.571+0000] {logging_mixin.py:188} INFO - 0    2025-02-15 22:00:00
+1    2025-02-18 13:44:00
+2    2025-02-19 16:14:00
+3    2025-02-19 23:24:00
+4    2025-02-19 21:39:00
+             ...        
+84   2025-02-14 21:38:00
+85   2025-02-14 13:54:00
+86   2025-02-19 18:21:00
+87   2025-02-20 14:21:00
+88   2025-02-19 18:23:00
+Name: datetime, Length: 89, dtype: datetime64[ns]
+[2025-02-20T08:59:22.574+0000] {logging_mixin.py:188} INFO - 0     A version of this story appeared in CNN’s What...
+1     The federal judge overseeing the corruption ca...
+2     President Donald Trump’s executive order grasp...
+3     Washington President Donald Trump’s false decl...
+4     The John F. Kennedy Presidential Library and M...
+                            ...                        
+84    Hong Kong An unruly Chinese boy who battles dr...
+85    The Trump White House said Friday that The Ass...
+86    New York The Trump administration is moving ah...
+87    Hong Kong Inbound investment in China plummete...
+88    President Donald Trump’s media company is suin...
+Name: text, Length: 89, dtype: object
+[2025-02-20T08:59:22.630+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-20T08:59:22.650+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scraping_news_dag, task_id=scraping_cnn, execution_date=20250220T085523, start_date=20250220T085525, end_date=20250220T085922
+[2025-02-20T08:59:22.746+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-20T08:59:22.796+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

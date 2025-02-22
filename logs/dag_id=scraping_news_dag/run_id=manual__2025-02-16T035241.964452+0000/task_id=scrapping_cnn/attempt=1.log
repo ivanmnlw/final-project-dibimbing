@@ -1,0 +1,30 @@
+[2025-02-16T03:52:44.353+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-16T03:52:41.964452+00:00 [queued]>
+[2025-02-16T03:52:44.370+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-16T03:52:41.964452+00:00 [queued]>
+[2025-02-16T03:52:44.372+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-16T03:52:44.404+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_cnn> on 2025-02-16 03:52:41.964452+00:00
+[2025-02-16T03:52:44.415+0000] {standard_task_runner.py:60} INFO - Started process 296 to run task
+[2025-02-16T03:52:44.421+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_cnn', 'manual__2025-02-16T03:52:41.964452+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmp8n5udd_0']
+[2025-02-16T03:52:44.425+0000] {standard_task_runner.py:88} INFO - Job 78: Subtask scrapping_cnn
+[2025-02-16T03:52:44.460+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-16T03:52:44.543+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-16T03:52:41.964452+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-16T03:52:44.720+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_cnn' AIRFLOW_CTX_EXECUTION_DATE='2025-02-16T03:52:41.964452+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-16T03:52:41.964452+00:00'
+[2025-02-16T03:56:27.269+0000] {logging_mixin.py:188} INFO -                                                   url  ... source
+0   https://edition.cnn.com/2025/02/15/politics/tr...  ...    cnn
+1   https://edition.cnn.com/2025/02/15/politics/vi...  ...    cnn
+2   https://edition.cnn.com/2025/02/15/politics/do...  ...    cnn
+3   https://edition.cnn.com/2025/02/15/politics/qu...  ...    cnn
+4   https://edition.cnn.com/2025/02/15/politics/mc...  ...    cnn
+5   https://edition.cnn.com/2025/02/15/politics/ru...  ...    cnn
+6   https://edition.cnn.com/2025/02/15/politics/vi...  ...    cnn
+7   https://edition.cnn.com/2025/02/15/business/am...  ...    cnn
+8   https://edition.cnn.com/2025/02/15/business/am...  ...    cnn
+9   https://edition.cnn.com/2025/02/15/business/nl...  ...    cnn
+10  https://edition.cnn.com/2025/02/15/business/am...  ...    cnn
+11  https://edition.cnn.com/2025/02/15/business/am...  ...    cnn
+12  https://edition.cnn.com/2025/02/15/business/nl...  ...    cnn
+
+[13 rows x 5 columns]
+[2025-02-16T03:56:27.271+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-16T03:56:27.289+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scraping_news_dag, task_id=scrapping_cnn, execution_date=20250216T035241, start_date=20250216T035244, end_date=20250216T035627
+[2025-02-16T03:56:27.366+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-16T03:56:27.417+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

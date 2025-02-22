@@ -1,0 +1,36 @@
+[2025-02-19T12:39:42.687+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T12:39:40.687637+00:00 [queued]>
+[2025-02-19T12:39:42.706+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T12:39:40.687637+00:00 [queued]>
+[2025-02-19T12:39:42.707+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-19T12:39:42.735+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_nytimes> on 2025-02-19 12:39:40.687637+00:00
+[2025-02-19T12:39:42.745+0000] {standard_task_runner.py:60} INFO - Started process 231 to run task
+[2025-02-19T12:39:42.748+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_nytimes', 'manual__2025-02-19T12:39:40.687637+00:00', '--job-id', '145', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmpkb8vfoq9']
+[2025-02-19T12:39:42.753+0000] {standard_task_runner.py:88} INFO - Job 145: Subtask scrapping_nytimes
+[2025-02-19T12:39:42.791+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-19T12:39:42.879+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_nytimes manual__2025-02-19T12:39:40.687637+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-19T12:39:43.058+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_nytimes' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T12:39:40.687637+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-19T12:39:40.687637+00:00'
+[2025-02-19T12:39:44.566+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-02-19T12:39:45.335+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T12:39:45.574+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-02-19T12:39:45.728+0000] {logger.py:11} INFO - Driver [/home/airflow/.wdm/drivers/chromedriver/linux64/133.0.6943.126/chromedriver-linux64/chromedriver] found in cache
+[2025-02-19T12:40:45.610+0000] {logging_mixin.py:188} INFO - Total scraped: 100
+[2025-02-19T12:42:51.288+0000] {logging_mixin.py:188} INFO - Total scraped: 100
+[2025-02-19T12:45:04.112+0000] {logging_mixin.py:188} INFO - Total scraped: 107
+[2025-02-19T12:47:02.821+0000] {logging_mixin.py:188} INFO - Total scraped: 100
+[2025-02-19T12:48:10.382+0000] {logging_mixin.py:188} INFO -                                                    url  ...          source
+0    https://www.nytimes.com/2025/02/14/business/ec...  ...  New York Times
+1    https://www.nytimes.com/2025/02/12/business/in...  ...  New York Times
+2    https://www.nytimes.com/2025/02/15/business/ec...  ...  New York Times
+3    https://www.nytimes.com/2025/02/12/business/st...  ...  New York Times
+4    https://www.nytimes.com/2025/02/13/business/de...  ...  New York Times
+..                                                 ...  ...             ...
+205  https://www.nytimes.com/2025/02/12/opinion/imm...  ...  New York Times
+206  https://www.nytimes.com/2025/02/18/opinion/sou...  ...  New York Times
+207  https://www.nytimes.com/2025/02/17/opinion/tru...  ...  New York Times
+208  https://www.nytimes.com/2025/02/14/opinion/tru...  ...  New York Times
+209  https://www.nytimes.com/2025/02/13/opinion/val...  ...  New York Times
+
+[210 rows x 5 columns]
+[2025-02-19T12:48:10.939+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-19T12:48:10.963+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scraping_news_dag, task_id=scrapping_nytimes, execution_date=20250219T123940, start_date=20250219T123942, end_date=20250219T124810
+[2025-02-19T12:48:11.035+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-19T12:48:11.093+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

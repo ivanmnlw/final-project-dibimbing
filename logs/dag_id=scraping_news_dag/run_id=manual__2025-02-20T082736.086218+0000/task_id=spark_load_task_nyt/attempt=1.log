@@ -1,0 +1,117 @@
+[2025-02-20T08:32:07.410+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.spark_load_task_nyt manual__2025-02-20T08:27:36.086218+00:00 [queued]>
+[2025-02-20T08:32:07.438+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.spark_load_task_nyt manual__2025-02-20T08:27:36.086218+00:00 [queued]>
+[2025-02-20T08:32:07.438+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-20T08:32:07.471+0000] {taskinstance.py:2214} INFO - Executing <Task(SparkSubmitOperator): spark_load_task_nyt> on 2025-02-20 08:27:36.086218+00:00
+[2025-02-20T08:32:07.480+0000] {standard_task_runner.py:60} INFO - Started process 4600 to run task
+[2025-02-20T08:32:07.483+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'spark_load_task_nyt', 'manual__2025-02-20T08:27:36.086218+00:00', '--job-id', '169', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmp5oylgyll']
+[2025-02-20T08:32:07.486+0000] {standard_task_runner.py:88} INFO - Job 169: Subtask spark_load_task_nyt
+[2025-02-20T08:32:07.522+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-20T08:32:07.584+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.spark_load_task_nyt manual__2025-02-20T08:27:36.086218+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-20T08:32:07.746+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='spark_load_task_nyt' AIRFLOW_CTX_EXECUTION_DATE='2025-02-20T08:27:36.086218+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-20T08:27:36.086218+00:00'
+[2025-02-20T08:32:07.760+0000] {base.py:83} INFO - Using connection ID 'spark_main' for task execution.
+[2025-02-20T08:32:07.762+0000] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master spark://deproject-spark-master:7077 --name arrow-spark /spark-scripts/spark-nyt.py
+[2025-02-20T08:32:11.711+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SparkContext: Running Spark version 3.3.2
+[2025-02-20T08:32:11.772+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-02-20T08:32:11.872+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO ResourceUtils: ==============================================================
+[2025-02-20T08:32:11.873+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-02-20T08:32:11.873+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO ResourceUtils: ==============================================================
+[2025-02-20T08:32:11.874+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SparkContext: Submitted application: FinalProject_1
+[2025-02-20T08:32:11.897+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-02-20T08:32:11.908+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO ResourceProfile: Limiting resource is cpu
+[2025-02-20T08:32:11.910+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-02-20T08:32:11.962+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SecurityManager: Changing view acls to: airflow
+[2025-02-20T08:32:11.963+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SecurityManager: Changing modify acls to: airflow
+[2025-02-20T08:32:11.964+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SecurityManager: Changing view acls groups to:
+[2025-02-20T08:32:11.966+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SecurityManager: Changing modify acls groups to:
+[2025-02-20T08:32:11.967+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(airflow); groups with view permissions: Set(); users  with modify permissions: Set(airflow); groups with modify permissions: Set()
+[2025-02-20T08:32:12.210+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO Utils: Successfully started service 'sparkDriver' on port 40211.
+[2025-02-20T08:32:12.251+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO SparkEnv: Registering MapOutputTracker
+[2025-02-20T08:32:12.293+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO SparkEnv: Registering BlockManagerMaster
+[2025-02-20T08:32:12.313+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-02-20T08:32:12.314+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-02-20T08:32:12.320+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-02-20T08:32:12.347+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-6987f2fb-d2a8-41b0-9878-41d1a8d4021c
+[2025-02-20T08:32:12.367+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-02-20T08:32:12.384+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-02-20T08:32:12.609+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2025-02-20T08:32:12.619+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+[2025-02-20T08:32:12.742+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://deproject-spark-master:7077...
+[2025-02-20T08:32:12.792+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO TransportClientFactory: Successfully created connection to deproject-spark-master/172.28.0.3:7077 after 29 ms (0 ms spent in bootstraps)
+[2025-02-20T08:32:12.930+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250220083212-0001
+[2025-02-20T08:32:12.943+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41057.
+[2025-02-20T08:32:12.945+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO NettyBlockTransferService: Server created on deproject-airflow-scheduler:41057
+[2025-02-20T08:32:12.948+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-02-20T08:32:12.956+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, deproject-airflow-scheduler, 41057, None)
+[2025-02-20T08:32:12.959+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManagerMasterEndpoint: Registering block manager deproject-airflow-scheduler:41057 with 434.4 MiB RAM, BlockManagerId(driver, deproject-airflow-scheduler, 41057, None)
+[2025-02-20T08:32:12.961+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, deproject-airflow-scheduler, 41057, None)
+[2025-02-20T08:32:12.962+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:12 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, deproject-airflow-scheduler, 41057, None)
+[2025-02-20T08:32:13.130+0000] {spark_submit.py:495} INFO - 25/02/20 08:32:13 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2025-02-20T08:32:18.859+0000] {spark_submit.py:495} INFO - 197
+[2025-02-20T08:32:21.305+0000] {spark_submit.py:495} INFO - +--------------------+-------------------+--------------------+--------------------+--------------+
+[2025-02-20T08:32:21.305+0000] {spark_submit.py:495} INFO - |                 url|           datetime|               title|                text|        source|
+[2025-02-20T08:32:21.306+0000] {spark_submit.py:495} INFO - +--------------------+-------------------+--------------------+--------------------+--------------+
+[2025-02-20T08:32:21.306+0000] {spark_submit.py:495} INFO - |https://www.nytim...|2025-02-13 00:00:00|Britain’s Economy...|The British econo...|New York Times|
+[2025-02-20T08:32:21.307+0000] {spark_submit.py:495} INFO - |https://www.nytim...|2025-02-13 00:00:00|‘Risk of a Collis...|On a bright, clea...|New York Times|
+[2025-02-20T08:32:21.307+0000] {spark_submit.py:495} INFO - |https://www.nytim...|2025-02-13 00:00:00|Inflation Is Trum...|Just in: Lawyers ...|New York Times|
+[2025-02-20T08:32:21.307+0000] {spark_submit.py:495} INFO - |https://www.nytim...|2025-02-13 00:00:00|As Salaries Boom,...|No matter what ha...|New York Times|
+[2025-02-20T08:32:21.308+0000] {spark_submit.py:495} INFO - |https://www.nytim...|2025-02-13 00:00:00|Honda and Nissan ...|A $50 billion mer...|New York Times|
+[2025-02-20T08:32:21.308+0000] {spark_submit.py:495} INFO - +--------------------+-------------------+--------------------+--------------------+--------------+
+[2025-02-20T08:32:21.308+0000] {spark_submit.py:495} INFO - only showing top 5 rows
+[2025-02-20T08:32:21.309+0000] {spark_submit.py:495} INFO - 
+[2025-02-20T08:32:21.309+0000] {spark_submit.py:495} INFO - root
+[2025-02-20T08:32:21.309+0000] {spark_submit.py:495} INFO - |-- url: string (nullable = true)
+[2025-02-20T08:32:21.310+0000] {spark_submit.py:495} INFO - |-- datetime: timestamp (nullable = true)
+[2025-02-20T08:32:21.310+0000] {spark_submit.py:495} INFO - |-- title: string (nullable = true)
+[2025-02-20T08:32:21.311+0000] {spark_submit.py:495} INFO - |-- text: string (nullable = true)
+[2025-02-20T08:32:21.311+0000] {spark_submit.py:495} INFO - |-- source: string (nullable = true)
+[2025-02-20T08:32:21.312+0000] {spark_submit.py:495} INFO - 
+[2025-02-20T08:32:23.170+0000] {spark_submit.py:495} INFO - 181
+[2025-02-20T08:32:24.791+0000] {spark_submit.py:495} INFO - 181
+[2025-02-20T08:32:28.551+0000] {spark_submit.py:495} INFO - No model was supplied, defaulted to distilbert/distilbert-base-uncased-finetuned-sst-2-english and revision 714eb0f (https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english).
+[2025-02-20T08:32:28.552+0000] {spark_submit.py:495} INFO - Using a pipeline without specifying a model name and revision in production is not recommended.
+[2025-02-20T08:32:29.042+0000] {spark_submit.py:495} INFO - Device set to use cpu
+[2025-02-20T08:32:53.952+0000] {spark_submit.py:495} INFO - label     score
+[2025-02-20T08:32:53.953+0000] {spark_submit.py:495} INFO - 0    POSITIVE  0.981856
+[2025-02-20T08:32:53.953+0000] {spark_submit.py:495} INFO - 1    NEGATIVE  0.999194
+[2025-02-20T08:32:53.954+0000] {spark_submit.py:495} INFO - 2    NEGATIVE  0.993478
+[2025-02-20T08:32:53.954+0000] {spark_submit.py:495} INFO - 3    NEGATIVE  0.862653
+[2025-02-20T08:32:53.954+0000] {spark_submit.py:495} INFO - 4    NEGATIVE  0.996977
+[2025-02-20T08:32:53.954+0000] {spark_submit.py:495} INFO - ..        ...       ...
+[2025-02-20T08:32:53.955+0000] {spark_submit.py:495} INFO - 176  NEGATIVE  0.994628
+[2025-02-20T08:32:53.955+0000] {spark_submit.py:495} INFO - 177  POSITIVE  0.969348
+[2025-02-20T08:32:53.955+0000] {spark_submit.py:495} INFO - 178  NEGATIVE  0.992060
+[2025-02-20T08:32:53.956+0000] {spark_submit.py:495} INFO - 179  NEGATIVE  0.959983
+[2025-02-20T08:32:53.956+0000] {spark_submit.py:495} INFO - 180  POSITIVE  0.994702
+[2025-02-20T08:32:53.956+0000] {spark_submit.py:495} INFO - 
+[2025-02-20T08:32:53.957+0000] {spark_submit.py:495} INFO - [181 rows x 2 columns]
+[2025-02-20T08:32:55.547+0000] {spark_submit.py:495} INFO - url  ...          source
+[2025-02-20T08:32:55.548+0000] {spark_submit.py:495} INFO - 0    https://www.nytimes.com/2025/02/13/business/br...  ...  New York Times
+[2025-02-20T08:32:55.548+0000] {spark_submit.py:495} INFO - 1    https://www.nytimes.com/2025/02/13/business/dc...  ...  New York Times
+[2025-02-20T08:32:55.548+0000] {spark_submit.py:495} INFO - 2    https://www.nytimes.com/2025/02/13/business/de...  ...  New York Times
+[2025-02-20T08:32:55.548+0000] {spark_submit.py:495} INFO - 3    https://www.nytimes.com/2025/02/13/business/fo...  ...  New York Times
+[2025-02-20T08:32:55.549+0000] {spark_submit.py:495} INFO - 4    https://www.nytimes.com/2025/02/13/business/ho...  ...  New York Times
+[2025-02-20T08:32:55.549+0000] {spark_submit.py:495} INFO - ..                                                 ...  ...             ...
+[2025-02-20T08:32:55.549+0000] {spark_submit.py:495} INFO - 176  https://www.nytimes.com/2025/02/20/nyregion/co...  ...  New York Times
+[2025-02-20T08:32:55.550+0000] {spark_submit.py:495} INFO - 177  https://www.nytimes.com/2025/02/20/opinion/tru...  ...  New York Times
+[2025-02-20T08:32:55.550+0000] {spark_submit.py:495} INFO - 178  https://www.nytimes.com/2025/02/20/us/politics...  ...  New York Times
+[2025-02-20T08:32:55.550+0000] {spark_submit.py:495} INFO - 179  https://www.nytimes.com/interactive/2025/02/16...  ...  New York Times
+[2025-02-20T08:32:55.550+0000] {spark_submit.py:495} INFO - 180  https://www.nytimes.com/video/us/politics/1000...  ...  New York Times
+[2025-02-20T08:32:55.550+0000] {spark_submit.py:495} INFO - 
+[2025-02-20T08:32:55.551+0000] {spark_submit.py:495} INFO - [181 rows x 5 columns]
+[2025-02-20T08:32:55.558+0000] {spark_submit.py:495} INFO - url  ...     score
+[2025-02-20T08:32:55.559+0000] {spark_submit.py:495} INFO - 0    https://www.nytimes.com/2025/02/13/business/br...  ...  0.981856
+[2025-02-20T08:32:55.559+0000] {spark_submit.py:495} INFO - 1    https://www.nytimes.com/2025/02/13/business/dc...  ...  0.999194
+[2025-02-20T08:32:55.559+0000] {spark_submit.py:495} INFO - 2    https://www.nytimes.com/2025/02/13/business/de...  ...  0.993478
+[2025-02-20T08:32:55.559+0000] {spark_submit.py:495} INFO - 3    https://www.nytimes.com/2025/02/13/business/fo...  ...  0.862653
+[2025-02-20T08:32:55.560+0000] {spark_submit.py:495} INFO - 4    https://www.nytimes.com/2025/02/13/business/ho...  ...  0.996977
+[2025-02-20T08:32:55.560+0000] {spark_submit.py:495} INFO - ..                                                 ...  ...       ...
+[2025-02-20T08:32:55.560+0000] {spark_submit.py:495} INFO - 176  https://www.nytimes.com/2025/02/20/nyregion/co...  ...  0.994628
+[2025-02-20T08:32:55.560+0000] {spark_submit.py:495} INFO - 177  https://www.nytimes.com/2025/02/20/opinion/tru...  ...  0.969348
+[2025-02-20T08:32:55.561+0000] {spark_submit.py:495} INFO - 178  https://www.nytimes.com/2025/02/20/us/politics...  ...  0.992060
+[2025-02-20T08:32:55.561+0000] {spark_submit.py:495} INFO - 179  https://www.nytimes.com/interactive/2025/02/16...  ...  0.959983
+[2025-02-20T08:32:55.561+0000] {spark_submit.py:495} INFO - 180  https://www.nytimes.com/video/us/politics/1000...  ...  0.994702
+[2025-02-20T08:32:55.561+0000] {spark_submit.py:495} INFO - 
+[2025-02-20T08:32:55.562+0000] {spark_submit.py:495} INFO - [181 rows x 7 columns]
+[2025-02-20T08:32:56.420+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scraping_news_dag, task_id=spark_load_task_nyt, execution_date=20250220T082736, start_date=20250220T083207, end_date=20250220T083256
+[2025-02-20T08:32:56.469+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-20T08:32:56.493+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,791 @@
+[2025-02-15T01:33:39.789+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:33:39.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:33:39.794+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:33:39.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:33:39.842+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:33:39.891+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:33:39.891+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:33:39.917+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:33:39.917+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:33:39.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.176 seconds
+[2025-02-15T01:34:10.734+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:34:10.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:34:10.738+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:34:10.737+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:34:10.782+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:34:11.091+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:34:11.090+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:34:11.111+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:34:11.111+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:34:11.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.422 seconds
+[2025-02-15T01:34:41.471+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:34:41.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:34:41.475+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:34:41.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:34:41.522+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:34:41.582+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:34:41.581+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:34:41.606+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:34:41.606+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:34:41.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.182 seconds
+[2025-02-15T01:35:12.220+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:35:12.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:35:12.225+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:35:12.224+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:35:12.290+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:35:12.377+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:35:12.377+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:35:12.412+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:35:12.412+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:35:12.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.246 seconds
+[2025-02-15T01:35:43.032+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:35:43.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:35:43.037+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:35:43.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:35:43.085+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:35:43.144+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:35:43.144+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:35:43.184+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:35:43.184+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:35:43.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.208 seconds
+[2025-02-15T01:36:13.812+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:36:13.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:36:13.818+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:36:13.817+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:36:13.866+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:36:13.921+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:36:13.920+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:36:13.946+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:36:13.945+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:36:13.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.185 seconds
+[2025-02-15T01:36:44.745+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:36:44.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:36:44.750+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:36:44.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:36:44.797+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:36:44.850+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:36:44.850+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:36:44.877+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:36:44.876+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:36:44.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds
+[2025-02-15T01:37:15.470+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:37:15.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:37:15.474+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:37:15.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:37:15.514+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:37:15.569+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:37:15.568+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:37:15.597+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:37:15.597+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:37:15.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.179 seconds
+[2025-02-15T01:37:46.363+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:37:46.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:37:46.368+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:37:46.367+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:37:46.415+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:37:46.468+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:37:46.468+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:37:46.496+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:37:46.496+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:37:46.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds
+[2025-02-15T01:38:17.343+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:38:17.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:38:17.348+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:38:17.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:38:17.395+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:38:17.451+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:38:17.451+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:38:17.480+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:38:17.480+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:38:17.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds
+[2025-02-15T01:38:48.265+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:38:48.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:38:48.270+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:38:48.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:38:48.317+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:38:48.370+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:38:48.370+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:38:48.399+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:38:48.399+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:38:48.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.185 seconds
+[2025-02-15T01:39:19.272+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:39:19.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:39:19.277+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:39:19.276+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:39:19.325+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:39:19.387+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:39:19.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:39:19.411+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:39:19.410+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:39:19.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.185 seconds
+[2025-02-15T01:39:50.312+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:39:50.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:39:50.317+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:39:50.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:39:50.357+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:39:50.411+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:39:50.410+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:39:50.437+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:39:50.436+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:39:50.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.175 seconds
+[2025-02-15T01:40:20.623+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:40:20.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:40:20.628+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:40:20.627+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:40:20.675+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:40:20.738+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:40:20.737+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:40:20.763+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:40:20.762+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:40:20.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.196 seconds
+[2025-02-15T01:40:51.683+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:40:51.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:40:51.688+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:40:51.687+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:40:51.733+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:40:51.783+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:40:51.782+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:40:51.808+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:40:51.807+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:40:51.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.175 seconds
+[2025-02-15T01:41:22.675+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:41:22.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:41:22.680+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:41:22.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:41:22.724+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:41:22.786+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:41:22.785+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:41:22.815+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:41:22.814+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:41:22.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds
+[2025-02-15T01:41:53.699+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:41:53.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:41:53.704+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:41:53.704+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:41:53.753+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:41:53.830+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:41:53.829+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:41:53.857+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:41:53.856+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:41:53.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.207 seconds
+[2025-02-15T01:42:24.729+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:42:24.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:42:24.734+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:42:24.733+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:42:24.775+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:42:24.829+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:42:24.828+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:42:24.863+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:42:24.863+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:42:24.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.180 seconds
+[2025-02-15T01:42:55.744+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:42:55.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:42:55.748+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:42:55.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:42:55.794+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:42:55.845+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:42:55.844+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:42:55.871+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:42:55.871+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:42:55.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.180 seconds
+[2025-02-15T01:43:26.780+0000] {processor.py:161} INFO - Started process (PID=551) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:43:26.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:43:26.786+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:43:26.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:43:26.834+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:43:26.894+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:43:26.893+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:43:26.921+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:43:26.920+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:43:26.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.185 seconds
+[2025-02-15T01:43:57.945+0000] {processor.py:161} INFO - Started process (PID=571) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:43:57.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:43:57.949+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:43:57.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:43:57.994+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:43:58.046+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:43:58.045+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:43:58.079+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:43:58.078+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:43:58.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.179 seconds
+[2025-02-15T01:44:28.939+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:44:28.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:44:28.945+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:44:28.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:44:28.988+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:44:29.043+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:44:29.043+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:44:29.070+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:44:29.069+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:44:29.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.178 seconds
+[2025-02-15T01:44:59.950+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:44:59.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:44:59.955+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:44:59.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:45:00.000+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:45:00.063+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:45:00.062+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:45:00.090+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:45:00.090+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:45:00.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.191 seconds
+[2025-02-15T01:45:30.942+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:45:30.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:45:30.946+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:45:30.946+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:45:30.988+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:45:31.043+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:45:31.042+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:45:31.076+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:45:31.076+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:45:31.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.182 seconds
+[2025-02-15T01:46:01.943+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:46:01.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:46:01.948+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:46:01.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:46:01.993+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:46:02.053+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:46:02.053+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:46:02.077+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:46:02.077+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:46:02.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds
+[2025-02-15T01:46:32.956+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:46:32.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:46:32.961+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:46:32.960+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:46:33.007+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:46:33.062+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:46:33.061+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:46:33.090+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:46:33.090+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:46:33.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.182 seconds
+[2025-02-15T01:47:03.979+0000] {processor.py:161} INFO - Started process (PID=691) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:47:03.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:47:03.984+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:47:03.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:47:04.030+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:47:04.107+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:47:04.106+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:47:04.131+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:47:04.131+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:47:04.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.201 seconds
+[2025-02-15T01:47:34.985+0000] {processor.py:161} INFO - Started process (PID=711) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:47:34.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:47:34.989+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:47:34.988+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:47:35.033+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:47:35.081+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:47:35.080+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:47:35.106+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:47:35.105+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:47:35.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.172 seconds
+[2025-02-15T01:48:05.994+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:48:05.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:48:05.999+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:48:05.998+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:48:06.044+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:48:06.112+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:48:06.111+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:48:06.138+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:48:06.138+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:48:06.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.189 seconds
+[2025-02-15T01:48:37.092+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:48:37.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:48:37.103+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:48:37.102+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:48:37.219+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:48:37.323+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:48:37.322+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:48:37.396+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:48:37.395+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:48:37.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.357 seconds
+[2025-02-15T01:49:07.868+0000] {processor.py:161} INFO - Started process (PID=771) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:49:07.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:49:07.874+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:49:07.873+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:49:07.972+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:49:08.073+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:49:08.072+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:49:08.102+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:49:08.101+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:49:08.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.335 seconds
+[2025-02-15T01:49:38.545+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:49:38.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:49:38.576+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:49:38.569+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:49:38.643+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:49:38.739+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:49:38.739+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:49:38.765+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:49:38.764+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:49:38.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.281 seconds
+[2025-02-15T01:50:09.431+0000] {processor.py:161} INFO - Started process (PID=811) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:50:09.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:50:09.436+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:50:09.435+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:50:09.479+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:50:09.587+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:50:09.587+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:50:09.612+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:50:09.611+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:50:09.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.280 seconds
+[2025-02-15T01:50:40.164+0000] {processor.py:161} INFO - Started process (PID=831) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:50:40.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:50:40.168+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:50:40.168+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:50:40.212+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:50:40.263+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:50:40.262+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:50:40.288+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:50:40.287+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:50:40.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.172 seconds
+[2025-02-15T01:51:10.555+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:51:10.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:51:10.559+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:51:10.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:51:10.605+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:51:10.657+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:51:10.656+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:51:10.682+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:51:10.682+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:51:10.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.175 seconds
+[2025-02-15T01:51:41.171+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:51:41.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:51:41.176+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:51:41.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:51:41.219+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:51:41.320+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:51:41.312+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:51:41.351+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:51:41.350+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:51:41.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.227 seconds
+[2025-02-15T01:52:11.615+0000] {processor.py:161} INFO - Started process (PID=891) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:52:11.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:52:11.620+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:52:11.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:52:11.664+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:52:11.726+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:52:11.725+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:52:11.755+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:52:11.755+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:52:11.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.195 seconds
+[2025-02-15T01:52:42.157+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:52:42.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:52:42.162+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:52:42.161+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:52:42.205+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:52:42.259+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:52:42.259+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:52:42.286+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:52:42.285+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:52:42.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.175 seconds
+[2025-02-15T01:53:13.286+0000] {processor.py:161} INFO - Started process (PID=931) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:53:13.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:53:13.290+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:53:13.290+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:53:13.338+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:53:13.394+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:53:13.392+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:53:13.479+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:53:13.478+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:53:13.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.238 seconds
+[2025-02-15T01:53:44.393+0000] {processor.py:161} INFO - Started process (PID=951) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:53:44.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:53:44.398+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:53:44.397+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:53:44.453+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:53:44.506+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:53:44.505+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:53:44.530+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:53:44.530+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:53:44.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.188 seconds
+[2025-02-15T01:54:15.048+0000] {processor.py:161} INFO - Started process (PID=971) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:54:15.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:54:15.053+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:54:15.053+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:54:15.095+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:54:15.148+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:54:15.148+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:54:15.241+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:54:15.240+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:54:15.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.240 seconds
+[2025-02-15T01:54:45.935+0000] {processor.py:161} INFO - Started process (PID=991) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:54:45.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:54:45.939+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:54:45.938+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:54:45.982+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:54:46.034+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:54:46.034+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:54:46.059+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:54:46.058+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:54:46.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.169 seconds
+[2025-02-15T01:55:16.694+0000] {processor.py:161} INFO - Started process (PID=1011) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:55:16.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:55:16.699+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:55:16.698+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:55:16.790+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:55:16.837+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:55:16.836+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:55:16.863+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:55:16.862+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:55:16.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.268 seconds
+[2025-02-15T01:55:47.833+0000] {processor.py:161} INFO - Started process (PID=1031) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:55:47.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:55:47.838+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:55:47.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:55:47.882+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:55:47.981+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:55:47.980+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:55:48.010+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:55:48.009+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:55:48.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.270 seconds
+[2025-02-15T01:56:18.886+0000] {processor.py:161} INFO - Started process (PID=1051) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:56:18.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:56:18.890+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:56:18.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:56:18.927+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:56:18.972+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:56:18.972+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:56:18.995+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:56:18.995+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:56:19.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.155 seconds
+[2025-02-15T01:56:50.073+0000] {processor.py:161} INFO - Started process (PID=1071) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:56:50.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:56:50.076+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:56:50.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:56:50.115+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:56:50.247+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:56:50.247+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:56:50.277+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:56:50.277+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:56:50.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.255 seconds
+[2025-02-15T01:57:20.647+0000] {processor.py:161} INFO - Started process (PID=1091) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:57:20.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:57:20.652+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:57:20.651+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:57:20.699+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:57:20.749+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:57:20.748+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:57:20.773+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:57:20.772+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:57:20.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.174 seconds
+[2025-02-15T01:57:51.664+0000] {processor.py:161} INFO - Started process (PID=1111) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:57:51.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:57:51.668+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:57:51.668+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:57:51.740+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:57:51.829+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:57:51.829+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:57:51.890+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:57:51.890+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:57:51.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.322 seconds
+[2025-02-15T01:58:22.225+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:58:22.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:58:22.255+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:58:22.255+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:58:22.291+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:58:22.400+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:58:22.393+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:58:22.446+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:58:22.445+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:58:22.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.314 seconds
+[2025-02-15T01:58:52.912+0000] {processor.py:161} INFO - Started process (PID=1151) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:58:52.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:58:52.916+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:58:52.916+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:58:53.002+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:58:53.055+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:58:53.054+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:58:53.080+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:58:53.079+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:58:53.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.213 seconds
+[2025-02-15T01:59:23.676+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:59:23.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:59:23.681+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:59:23.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:59:23.728+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:59:23.778+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:59:23.778+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:59:23.801+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:59:23.801+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:59:23.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.173 seconds
+[2025-02-15T01:59:54.454+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:59:54.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T01:59:54.462+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:59:54.461+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:59:54.512+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T01:59:54.577+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:59:54.576+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T01:59:54.609+0000] {logging_mixin.py:188} INFO - [2025-02-15T01:59:54.608+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T01:59:54.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.203 seconds
+[2025-02-15T02:00:25.324+0000] {processor.py:161} INFO - Started process (PID=1211) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:00:25.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:00:25.329+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:00:25.328+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:00:25.374+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:00:25.435+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:00:25.434+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:00:25.470+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:00:25.469+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:00:25.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.195 seconds
+[2025-02-15T02:00:56.282+0000] {processor.py:161} INFO - Started process (PID=1231) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:00:56.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:00:56.286+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:00:56.286+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:00:56.331+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:00:56.381+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:00:56.381+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:00:56.409+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:00:56.408+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:00:56.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.178 seconds
+[2025-02-15T02:01:27.243+0000] {processor.py:161} INFO - Started process (PID=1251) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:01:27.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:01:27.247+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:01:27.247+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:01:27.293+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:01:27.343+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:01:27.342+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:01:27.370+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:01:27.370+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:01:27.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.174 seconds
+[2025-02-15T02:01:58.214+0000] {processor.py:161} INFO - Started process (PID=1271) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:01:58.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:01:58.218+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:01:58.218+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:01:58.265+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:01:58.316+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:01:58.315+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:01:58.346+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:01:58.345+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:01:58.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.182 seconds
+[2025-02-15T02:02:29.186+0000] {processor.py:161} INFO - Started process (PID=1291) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:02:29.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:02:29.191+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:02:29.190+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:02:29.230+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:02:29.285+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:02:29.284+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:02:29.311+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:02:29.311+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:02:29.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.175 seconds
+[2025-02-15T02:03:00.225+0000] {processor.py:161} INFO - Started process (PID=1311) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:03:00.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:03:00.230+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:03:00.230+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:03:00.278+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:03:00.339+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:03:00.339+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:03:00.368+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:03:00.368+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:03:00.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.201 seconds
+[2025-02-15T02:03:31.229+0000] {processor.py:161} INFO - Started process (PID=1331) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:03:31.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:03:31.233+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:03:31.233+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:03:31.284+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:03:31.334+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:03:31.334+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:03:31.360+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:03:31.360+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:03:31.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.181 seconds
+[2025-02-15T02:04:02.200+0000] {processor.py:161} INFO - Started process (PID=1351) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:04:02.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:04:02.205+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:04:02.204+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:04:02.242+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:04:02.295+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:04:02.294+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:04:02.322+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:04:02.322+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:04:02.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.179 seconds
+[2025-02-15T02:04:32.946+0000] {processor.py:161} INFO - Started process (PID=1371) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:04:32.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:04:32.952+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:04:32.951+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:04:33.000+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:04:33.060+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:04:33.059+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:04:33.094+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:04:33.093+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:04:33.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.197 seconds
+[2025-02-15T02:05:03.749+0000] {processor.py:161} INFO - Started process (PID=1391) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:05:03.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:05:03.754+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:05:03.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:05:03.800+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:05:03.860+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:05:03.860+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:05:03.890+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:05:03.890+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:05:03.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.191 seconds
+[2025-02-15T02:05:34.520+0000] {processor.py:161} INFO - Started process (PID=1411) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:05:34.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:05:34.528+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:05:34.527+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:05:34.583+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:05:34.653+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:05:34.652+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:05:34.686+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:05:34.686+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:05:34.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.233 seconds
+[2025-02-15T02:06:05.356+0000] {processor.py:161} INFO - Started process (PID=1431) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:06:05.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:06:05.361+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:06:05.360+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:06:05.406+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:06:05.458+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:06:05.457+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:06:05.484+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:06:05.483+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:06:05.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.176 seconds
+[2025-02-15T02:06:36.096+0000] {processor.py:161} INFO - Started process (PID=1451) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:06:36.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:06:36.101+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:06:36.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:06:36.154+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:06:36.212+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:06:36.211+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:06:36.242+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:06:36.241+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:06:36.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.202 seconds
+[2025-02-15T02:07:07.117+0000] {processor.py:161} INFO - Started process (PID=1471) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:07:07.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:07:07.122+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:07:07.121+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:07:07.169+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:07:07.229+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:07:07.229+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:07:07.255+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:07:07.254+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:07:07.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.190 seconds
+[2025-02-15T02:07:37.894+0000] {processor.py:161} INFO - Started process (PID=1491) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:07:37.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:07:37.899+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:07:37.898+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:07:37.953+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:07:38.011+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:07:38.010+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:07:38.053+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:07:38.052+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:07:38.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.224 seconds
+[2025-02-15T02:08:08.925+0000] {processor.py:161} INFO - Started process (PID=1511) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:08:08.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:08:08.929+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:08:08.928+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:08:08.976+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:08:09.028+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:08:09.027+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:08:09.052+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:08:09.051+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:08:09.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.176 seconds
+[2025-02-15T02:08:39.914+0000] {processor.py:161} INFO - Started process (PID=1531) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:08:39.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:08:39.918+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:08:39.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:08:39.965+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:08:40.017+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:08:40.016+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:08:40.044+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:08:40.043+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:08:40.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.177 seconds
+[2025-02-15T02:09:11.112+0000] {processor.py:161} INFO - Started process (PID=1551) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:09:11.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:09:11.117+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:09:11.116+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:09:11.170+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:09:11.221+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:09:11.220+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:09:11.245+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:09:11.245+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:09:11.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.184 seconds
+[2025-02-15T02:09:42.128+0000] {processor.py:161} INFO - Started process (PID=1571) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:09:42.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:09:42.133+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:09:42.132+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:09:42.180+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:09:42.232+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:09:42.231+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:09:42.264+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:09:42.263+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:09:42.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.192 seconds
+[2025-02-15T02:10:13.171+0000] {processor.py:161} INFO - Started process (PID=1591) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:10:13.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:10:13.175+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:10:13.175+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:10:13.221+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:10:13.271+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:10:13.269+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:10:13.297+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:10:13.296+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:10:13.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.177 seconds
+[2025-02-15T02:10:43.981+0000] {processor.py:161} INFO - Started process (PID=1611) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:10:43.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:10:43.986+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:10:43.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:10:44.031+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:10:44.094+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:10:44.092+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:10:44.125+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:10:44.125+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:10:44.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.193 seconds
+[2025-02-15T02:11:14.334+0000] {processor.py:161} INFO - Started process (PID=1631) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:11:14.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:11:14.345+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:11:14.344+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:11:14.404+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:11:14.494+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:11:14.493+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:11:14.530+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:11:14.529+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:11:14.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.266 seconds
+[2025-02-15T02:11:44.766+0000] {processor.py:161} INFO - Started process (PID=1651) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:11:44.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:11:44.771+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:11:44.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:11:44.820+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:11:44.878+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:11:44.877+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:11:44.909+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:11:44.908+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:11:44.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.195 seconds
+[2025-02-15T02:12:15.772+0000] {processor.py:161} INFO - Started process (PID=1671) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:12:15.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:12:15.777+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:12:15.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:12:15.823+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:12:15.878+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:12:15.878+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:12:15.903+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:12:15.902+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:12:15.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.191 seconds
+[2025-02-15T02:12:46.776+0000] {processor.py:161} INFO - Started process (PID=1691) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:12:46.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:12:46.781+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:12:46.781+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:12:46.829+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:12:46.886+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:12:46.885+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:12:46.917+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:12:46.917+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:12:46.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.189 seconds
+[2025-02-15T02:13:17.165+0000] {processor.py:161} INFO - Started process (PID=1711) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:13:17.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:13:17.170+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:13:17.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:13:17.215+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:13:17.273+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:13:17.272+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:13:17.301+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:13:17.300+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:13:17.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.188 seconds
+[2025-02-15T02:13:48.333+0000] {processor.py:161} INFO - Started process (PID=1731) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:13:48.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:13:48.337+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:13:48.337+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:13:48.386+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:13:48.441+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:13:48.441+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:13:48.468+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:13:48.467+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:13:48.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.188 seconds
+[2025-02-15T02:14:19.343+0000] {processor.py:161} INFO - Started process (PID=1751) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:14:19.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:14:19.348+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:14:19.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:14:19.389+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:14:19.440+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:14:19.439+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:14:19.470+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:14:19.470+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:14:19.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.184 seconds
+[2025-02-15T02:14:50.383+0000] {processor.py:161} INFO - Started process (PID=1771) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:14:50.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:14:50.387+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:14:50.387+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:14:50.429+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:14:50.486+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:14:50.486+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:14:50.510+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:14:50.510+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:14:50.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.176 seconds
+[2025-02-15T02:15:21.396+0000] {processor.py:161} INFO - Started process (PID=1791) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:15:21.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:15:21.409+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:15:21.408+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:15:21.462+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:15:21.514+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:15:21.513+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:15:21.540+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:15:21.539+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:15:21.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.196 seconds
+[2025-02-15T02:15:52.438+0000] {processor.py:161} INFO - Started process (PID=1811) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:15:52.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:15:52.444+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:15:52.443+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:15:52.490+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:15:52.554+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:15:52.554+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:15:52.585+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:15:52.585+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:15:52.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.217 seconds
+[2025-02-15T02:16:22.767+0000] {processor.py:161} INFO - Started process (PID=1828) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:16:22.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:16:22.771+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:16:22.771+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:16:22.814+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:16:22.873+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:16:22.873+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:16:22.907+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:16:22.906+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:16:22.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.200 seconds
+[2025-02-15T02:16:53.147+0000] {processor.py:161} INFO - Started process (PID=1848) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:16:53.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:16:53.152+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:16:53.151+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:16:53.198+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:16:53.253+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:16:53.253+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:16:53.280+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:16:53.279+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:16:53.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.184 seconds
+[2025-02-15T02:17:23.440+0000] {processor.py:161} INFO - Started process (PID=1868) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:17:23.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:17:23.445+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:17:23.445+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:17:23.521+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:17:23.573+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:17:23.573+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:17:23.598+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:17:23.598+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:17:23.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.244 seconds
+[2025-02-15T02:17:53.893+0000] {processor.py:161} INFO - Started process (PID=1888) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:17:53.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:17:53.898+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:17:53.897+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:17:53.942+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:17:53.998+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:17:53.998+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:17:54.023+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:17:54.023+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:17:54.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.191 seconds
+[2025-02-15T02:18:24.268+0000] {processor.py:161} INFO - Started process (PID=1908) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:18:24.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:18:24.272+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:18:24.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:18:24.326+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:18:24.403+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:18:24.403+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:18:24.429+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:18:24.429+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:18:24.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.213 seconds
+[2025-02-15T02:18:54.666+0000] {processor.py:161} INFO - Started process (PID=1928) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:18:54.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:18:54.670+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:18:54.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:18:54.719+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:18:54.772+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:18:54.771+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:18:54.797+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:18:54.796+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:18:54.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.188 seconds
+[2025-02-15T02:19:25.003+0000] {processor.py:161} INFO - Started process (PID=1948) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:19:25.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:19:25.008+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:19:25.007+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:19:25.055+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:19:25.145+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:19:25.144+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:19:25.170+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:19:25.170+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:19:25.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.221 seconds
+[2025-02-15T02:19:55.374+0000] {processor.py:161} INFO - Started process (PID=1968) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:19:55.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:19:55.379+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:19:55.378+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:19:55.425+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:19:55.504+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:19:55.503+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:19:55.527+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:19:55.527+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:19:55.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.205 seconds
+[2025-02-15T02:20:25.772+0000] {processor.py:161} INFO - Started process (PID=1988) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:20:25.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:20:25.778+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:20:25.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:20:25.829+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:20:25.907+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:20:25.907+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:20:25.967+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:20:25.966+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:20:26.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.253 seconds
+[2025-02-15T02:20:56.231+0000] {processor.py:161} INFO - Started process (PID=2008) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:20:56.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:20:56.236+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:20:56.235+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:20:56.290+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:20:56.344+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:20:56.344+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:20:56.374+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:20:56.373+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:20:56.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.197 seconds
+[2025-02-15T02:21:26.678+0000] {processor.py:161} INFO - Started process (PID=2028) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:21:26.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:21:26.683+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:21:26.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:21:26.743+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:21:26.802+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:21:26.801+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:21:26.831+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:21:26.830+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:21:26.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.214 seconds
+[2025-02-15T02:21:57.061+0000] {processor.py:161} INFO - Started process (PID=2048) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:21:57.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:21:57.065+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:21:57.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:21:57.115+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:21:57.170+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:21:57.169+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:21:57.195+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:21:57.194+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:21:57.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.189 seconds
+[2025-02-15T02:22:27.431+0000] {processor.py:161} INFO - Started process (PID=2068) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:22:27.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:22:27.436+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:22:27.435+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:22:27.485+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:22:27.565+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:22:27.564+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:22:27.589+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:22:27.589+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:22:27.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.213 seconds
+[2025-02-15T02:22:57.734+0000] {processor.py:161} INFO - Started process (PID=2088) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:22:57.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:22:57.738+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:22:57.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:22:57.788+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:22:57.842+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:22:57.842+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:22:57.874+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:22:57.873+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:22:57.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.193 seconds
+[2025-02-15T02:23:28.151+0000] {processor.py:161} INFO - Started process (PID=2108) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:23:28.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:23:28.155+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:23:28.155+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:23:28.206+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:23:28.263+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:23:28.262+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:23:28.289+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:23:28.289+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:23:28.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.196 seconds
+[2025-02-15T02:23:58.631+0000] {processor.py:161} INFO - Started process (PID=2128) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:23:58.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:23:58.635+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:23:58.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:23:58.679+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:23:58.733+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:23:58.732+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:23:58.767+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:23:58.767+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:23:58.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.182 seconds
+[2025-02-15T02:24:28.932+0000] {processor.py:161} INFO - Started process (PID=2148) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:24:28.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:24:28.937+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:24:28.936+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:24:28.983+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:24:29.036+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:24:29.035+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:24:29.061+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:24:29.061+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:24:29.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds
+[2025-02-15T02:24:59.299+0000] {processor.py:161} INFO - Started process (PID=2168) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:24:59.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:24:59.303+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:24:59.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:24:59.356+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:24:59.409+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:24:59.408+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:24:59.437+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:24:59.436+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:24:59.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.190 seconds
+[2025-02-15T02:25:29.666+0000] {processor.py:161} INFO - Started process (PID=2188) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:25:29.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:25:29.670+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:25:29.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:25:29.717+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:25:29.770+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:25:29.769+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:25:29.797+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:25:29.796+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:25:29.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.184 seconds
+[2025-02-15T02:26:00.350+0000] {processor.py:161} INFO - Started process (PID=2211) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:26:00.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:26:00.355+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:26:00.355+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:26:00.434+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:26:00.493+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:26:00.492+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:26:00.522+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:26:00.521+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:26:00.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.235 seconds
+[2025-02-15T02:26:30.701+0000] {processor.py:161} INFO - Started process (PID=2231) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:26:30.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:26:30.706+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:26:30.705+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:26:30.752+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:26:30.802+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:26:30.802+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:26:30.832+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:26:30.831+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:26:30.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.181 seconds
+[2025-02-15T02:27:01.060+0000] {processor.py:161} INFO - Started process (PID=2251) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:27:01.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:27:01.065+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:27:01.064+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:27:01.113+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:27:01.174+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:27:01.173+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:27:01.202+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:27:01.201+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:27:01.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.190 seconds
+[2025-02-15T02:27:31.678+0000] {processor.py:161} INFO - Started process (PID=2273) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:27:31.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:27:31.683+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:27:31.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:27:31.732+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:27:31.795+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:27:31.794+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:27:31.834+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:27:31.834+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:27:31.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.228 seconds
+[2025-02-15T02:28:02.204+0000] {processor.py:161} INFO - Started process (PID=2293) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:28:02.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:28:02.220+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:28:02.209+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:28:02.322+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:28:02.422+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:28:02.421+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:28:02.453+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:28:02.452+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:28:02.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.355 seconds
+[2025-02-15T02:28:32.707+0000] {processor.py:161} INFO - Started process (PID=2313) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:28:32.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:28:32.713+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:28:32.712+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:28:32.785+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:28:32.838+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:28:32.838+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:28:32.869+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:28:32.868+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:28:32.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.221 seconds
+[2025-02-15T02:29:03.067+0000] {processor.py:161} INFO - Started process (PID=2331) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:29:03.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:29:03.073+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:29:03.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:29:03.118+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:29:03.174+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:29:03.173+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:29:03.200+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:29:03.200+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:29:03.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.189 seconds
+[2025-02-15T02:29:33.922+0000] {processor.py:161} INFO - Started process (PID=2351) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:29:33.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:29:33.927+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:29:33.927+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:29:33.974+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:29:34.058+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:29:34.057+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:29:34.085+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:29:34.085+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:29:34.125+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.211 seconds
+[2025-02-15T02:30:04.767+0000] {processor.py:161} INFO - Started process (PID=2371) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:30:04.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:30:04.772+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:30:04.771+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:30:04.816+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:30:04.868+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:30:04.868+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:30:04.894+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:30:04.894+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:30:04.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.178 seconds
+[2025-02-15T02:30:35.595+0000] {processor.py:161} INFO - Started process (PID=2391) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:30:35.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:30:35.599+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:30:35.599+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:30:35.646+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:30:35.703+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:30:35.702+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:30:35.731+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:30:35.730+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:30:35.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.187 seconds
+[2025-02-15T02:31:06.749+0000] {processor.py:161} INFO - Started process (PID=2411) to work on /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:31:06.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load-bigquery-test.py for tasks to queue
+[2025-02-15T02:31:06.753+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:31:06.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:31:06.801+0000] {processor.py:840} INFO - DAG(s) 'load_bigquery-test' retrieved from /opt/airflow/dags/load-bigquery-test.py
+[2025-02-15T02:31:06.851+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:31:06.850+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-02-15T02:31:06.881+0000] {logging_mixin.py:188} INFO - [2025-02-15T02:31:06.881+0000] {dag.py:3834} INFO - Setting next_dagrun for load_bigquery-test to None, run_after=None
+[2025-02-15T02:31:06.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load-bigquery-test.py took 0.183 seconds

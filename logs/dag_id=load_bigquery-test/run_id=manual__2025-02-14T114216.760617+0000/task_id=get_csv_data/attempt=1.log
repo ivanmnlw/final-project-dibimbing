@@ -1,0 +1,33 @@
+[2025-02-14T11:42:38.398+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_bigquery-test.get_csv_data manual__2025-02-14T11:42:16.760617+00:00 [queued]>
+[2025-02-14T11:42:38.407+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_bigquery-test.get_csv_data manual__2025-02-14T11:42:16.760617+00:00 [queued]>
+[2025-02-14T11:42:38.407+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-14T11:42:38.421+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): get_csv_data> on 2025-02-14 11:42:16.760617+00:00
+[2025-02-14T11:42:38.425+0000] {standard_task_runner.py:60} INFO - Started process 1395 to run task
+[2025-02-14T11:42:38.427+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'load_bigquery-test', 'get_csv_data', 'manual__2025-02-14T11:42:16.760617+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/load-bigquery-test.py', '--cfg-path', '/tmp/tmpkdd8890n']
+[2025-02-14T11:42:38.429+0000] {standard_task_runner.py:88} INFO - Job 59: Subtask get_csv_data
+[2025-02-14T11:42:38.443+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-14T11:42:38.477+0000] {task_command.py:423} INFO - Running <TaskInstance: load_bigquery-test.get_csv_data manual__2025-02-14T11:42:16.760617+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-14T11:42:38.564+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dibimbing' AIRFLOW_CTX_DAG_ID='load_bigquery-test' AIRFLOW_CTX_TASK_ID='get_csv_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-14T11:42:16.760617+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-14T11:42:16.760617+00:00'
+[2025-02-14T11:42:38.769+0000] {logging_mixin.py:188} INFO -    product_id  customer_id  ...     name.1  price.1
+0           1            1  ...  Product A    19.99
+1           2            2  ...  Product B     9.99
+2           3            3  ...  Product C    15.99
+3           4            1  ...  Product D     5.99
+4           5            2  ...  Product E    12.99
+5           6            3  ...  Product F     9.99
+6           7            4  ...  Product G    11.99
+7           8            1  ...  Product H    14.99
+8           9            2  ...  Product I     9.99
+9          10            3  ...  Product J    19.99
+
+[10 rows x 9 columns]
+[2025-02-14T11:42:38.770+0000] {logging_mixin.py:188} INFO - Index(['product_id', 'customer_id', 'order_id', 'quantity', 'price', 'name',
+       'email', 'name_1', 'price_1'],
+      dtype='object')
+[2025-02-14T11:42:45.942+0000] {logging_mixin.py:188} WARNING -   0%|          | 0/1 [00:00<?, ?it/s]
+[2025-02-14T11:42:45.943+0000] {gbq.py:515} INFO - 10 out of 10 rows loaded.
+[2025-02-14T11:42:45.943+0000] {logging_mixin.py:188} WARNING - 100%|##########| 1/1 [00:00<00:00, 2465.79it/s]
+[2025-02-14T11:42:45.943+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-14T11:42:45.953+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=load_bigquery-test, task_id=get_csv_data, execution_date=20250214T114216, start_date=20250214T114238, end_date=20250214T114245
+[2025-02-14T11:42:45.978+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-14T11:42:45.992+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

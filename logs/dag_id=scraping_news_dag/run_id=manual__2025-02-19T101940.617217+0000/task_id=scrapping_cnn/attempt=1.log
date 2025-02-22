@@ -1,0 +1,53 @@
+[2025-02-19T10:19:42.262+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T10:19:40.617217+00:00 [queued]>
+[2025-02-19T10:19:42.281+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T10:19:40.617217+00:00 [queued]>
+[2025-02-19T10:19:42.283+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-02-19T10:19:42.316+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): scrapping_cnn> on 2025-02-19 10:19:40.617217+00:00
+[2025-02-19T10:19:42.322+0000] {standard_task_runner.py:60} INFO - Started process 266 to run task
+[2025-02-19T10:19:42.332+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'scraping_news_dag', 'scrapping_cnn', 'manual__2025-02-19T10:19:40.617217+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/scraping-news-dag.py', '--cfg-path', '/tmp/tmp0seqzn0n']
+[2025-02-19T10:19:42.336+0000] {standard_task_runner.py:88} INFO - Job 140: Subtask scrapping_cnn
+[2025-02-19T10:19:42.364+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-19T10:19:42.436+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_news_dag.scrapping_cnn manual__2025-02-19T10:19:40.617217+00:00 [running]> on host deproject-airflow-scheduler
+[2025-02-19T10:19:42.603+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='scraping_news_dag' AIRFLOW_CTX_TASK_ID='scrapping_cnn' AIRFLOW_CTX_EXECUTION_DATE='2025-02-19T10:19:40.617217+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-19T10:19:40.617217+00:00'
+[2025-02-19T10:21:20.017+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.9/site-packages/dateutil/parser/_parser.py:1207 UnknownTimezoneWarning: tzname WIB identified but not understood.  Pass `tzinfos` argument in order to correctly return a timezone-aware datetime.  In a future version, this will raise an exception.
+[2025-02-19T10:24:14.268+0000] {logging_mixin.py:188} INFO -                                                   url  ... source
+0   https://edition.cnn.com/2025/02/12/politics/ta...  ...    cnn
+1   https://edition.cnn.com/2025/02/18/politics/tr...  ...    cnn
+2   https://edition.cnn.com/2025/02/18/politics/jf...  ...    cnn
+3   https://edition.cnn.com/2025/02/17/politics/tr...  ...    cnn
+4   https://edition.cnn.com/2025/02/17/politics/pa...  ...    cnn
+..                                                ...  ...    ...
+86  https://edition.cnn.com/2025/02/11/business/tr...  ...    cnn
+87  https://edition.cnn.com/2025/02/14/media/feder...  ...    cnn
+88  https://edition.cnn.com/2025/02/19/business/ai...  ...    cnn
+89  https://edition.cnn.com/2025/02/19/economy/us-...  ...    cnn
+90  https://edition.cnn.com/2025/02/19/business/hs...  ...    cnn
+
+[91 rows x 5 columns]
+[2025-02-19T10:24:14.272+0000] {logging_mixin.py:188} INFO - 0    2025-02-12 18:41:00
+1    2025-02-18 21:17:00
+2    2025-02-18 20:01:00
+3    2025-02-17 17:44:00
+4    2025-02-17 18:00:00
+             ...        
+86   2025-02-12 18:09:00
+87   2025-02-14 22:21:00
+88   2025-02-19 17:00:00
+89   2025-02-19 14:31:00
+90   2025-02-19 13:28:00
+Name: date, Length: 91, dtype: datetime64[ns]
+[2025-02-19T10:24:14.276+0000] {logging_mixin.py:188} INFO - 0     A version of this story appeared in CNN’s What...
+1     A dangerous fault line is opening as Donald Tr...
+2     The John F. Kennedy Presidential Library and M...
+3     Vladimir Putin is riding high ahead of critica...
+4     As the Trump administration fires thousands of...
+                            ...                        
+86    Los Angeles The body of water formerly known i...
+87    Federal prosecutors have ended their criminal ...
+88    The crash landing of Delta Air Lines flight 48...
+89    President Donald Trump said on Tuesday that he...
+90    Hong Kong Reuters —HSBC posted annual profit o...
+Name: text, Length: 91, dtype: object
+[2025-02-19T10:24:14.340+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-02-19T10:24:14.357+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=scraping_news_dag, task_id=scrapping_cnn, execution_date=20250219T101940, start_date=20250219T101942, end_date=20250219T102414
+[2025-02-19T10:24:14.421+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-02-19T10:24:14.462+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
