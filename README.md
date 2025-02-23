@@ -12,11 +12,9 @@ Pada project ini dilakukan web scraping dari berita CNN dan New York Times untuk
 - tableau
 
 ## Architecture
-![Uploading architecture.png…]()
 Pada architecture pipeline ini dimulai dengan extract data webscraping -> transform -> load di bigquery -> visualisasi 
 
 ![Uploading airflow.png…]()
-
 
 ## Extract
 Data di extract dari berita US. Untuk CNN menggunakan request dan beatifulsoup dan New York Times dengan selenium karena dynamic website.
