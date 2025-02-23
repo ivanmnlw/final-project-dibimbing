@@ -3,11 +3,12 @@ from airflow.operators.empty import EmptyOperator
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 from google.oauth2 import service_account
 import yaml
+from datetime import datetime
 
 with open("dags/source/list_tables.yaml") as f:
     list_tables = yaml.safe_load(f)
 
-@dag()
+@dag(schedule_interval="0 0 * * *", start_date=datetime(2024, 2, 13), catchup=False)
 def scraping_news_dag():
     start_task = EmptyOperator(task_id="start_task")
     end_task = EmptyOperator(task_id="end_task")

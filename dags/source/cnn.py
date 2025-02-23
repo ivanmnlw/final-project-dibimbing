@@ -77,8 +77,8 @@ def main():
         df = pd.DataFrame(articles)
         df['datetime'] = pd.to_datetime(df['datetime'])
         # print(df['date'])
-        yesterday = datetime.now().date() - timedelta(days=7)
-        new_df = df[df['datetime'].dt.date >= yesterday]
+        yesterday = datetime.now().date() - timedelta(days=1)
+        new_df = df[df['datetime'].dt.date == yesterday]
         # print(new_df)
         result = pd.concat([result, new_df], ignore_index=True)
 
